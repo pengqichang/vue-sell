@@ -196,7 +196,6 @@
         });
       },
       afterDrop(el) {
-        console.log('a');
         let ball = this.dropBalls.shift();
         if (ball) {
           ball.show = false;
